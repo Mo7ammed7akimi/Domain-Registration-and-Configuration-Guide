@@ -181,7 +181,7 @@ nslookup -type=NS example.com 8.8.8.8
 Other checks:
 
 ```bash
-# DNSSEC (nslookup cannot show this; use dig, WSL or an online tool such as DNSViz)
+# DNSSEC (nslookup cannot show this; use dig, WSL or an online tool such as DNSViz at https://dnsviz.net/)
 dig +dnssec example.com
 
 # HTTPS and redirects (on Windows PowerShell, use curl.exe)
